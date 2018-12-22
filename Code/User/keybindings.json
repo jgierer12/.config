@@ -1,0 +1,30 @@
+[
+  {
+    "key": "capslock",
+    "command": "extension.vim_escape"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "extension.smoothscroll_cursorDown"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "extension.smoothscroll_cursorUp"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.focusRightGroup"
+  }
+]

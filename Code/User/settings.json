@@ -1,0 +1,78 @@
+{
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "'Dank Mono', monospace",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'Dank Mono', monospace",
+  "terminal.integrated.fontSize": 18,
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "editor.rulers": [80],
+  "breadcrumbs.enabled": true,
+  "workbench.editor.showTabs": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "boundary",
+  "extensions.autoUpdate": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.autoIndent": true,
+  "editor.dragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "html.format.enable": false,
+  "json.format.enable": true,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.lineNumbers": "relative",
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "ignorePath": ".gitignore"
+  },
+  "prettier.ignorePath": ".gitignore",
+  "vim.enableNeovim": true,
+  "vim.visualstar": true,
+  "vim.hlsearch": false,
+  "vim.leader": "<space>",
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-u>": false,
+    "<C-b>": false,
+    "<C-d>": false,
+    "<C-w>": false
+  }
+}

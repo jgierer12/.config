@@ -1,0 +1,58 @@
+# in ~/.gitconfig:
+# [user]
+#   name =
+#   email =
+#   signingkey =
+
+[core]
+  editor = code -wn
+  autocrlf = false
+  eol = lf
+
+[commit]
+  template = ~/.config/git/message
+  gpgSign = true
+  verbose = true
+
+[alias]
+  graph = log --graph --all --decorate --stat --date=iso
+
+  changelog = log --oneline --no-merges
+  local = "!git changelog origin/\"$(git rev-parse --abbrev-ref HEAD)\".."
+  upstream = "!git changelog --no-merges ..origin/\"$(git rev-parse --abbrev-ref HEAD)\""
+
+  overview = log --all --since='2 weeks' --oneline --no-merges
+  today = "!git overview --since=00:06:00 --author=jgierer12@outlook.com"
+
+  recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
+  praise = blame
+  stats = shortlog -sn --since='10 weeks' --until='2 weeks'
+  please = push --force-with-lease
+  amend = commit --amend -C HEAD
+
+  fast = commit -am fastcommit
+  fup = !git fast && git push
+
+  nope = reset HEAD
+  fuck = reset HEAD --hard
+
+  master = checkout master
+
+  conflicts = diff --name-only --diff-filter=U
+
+[push]
+  default = simple
+  followTags = true
+
+[status]
+  showUntrackedFiles = all
+  short = true
+
+[transfer]
+  fsckobjects = true
+
+[branch]
+  autosetupmerge = always
+
+[credential]
+  helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
