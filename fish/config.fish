@@ -1,7 +1,9 @@
 alias l "ll"
 alias vim "nvim"
-alias d "cd ~/dev"
 alias nup "npx updates"
+
+alias d "cd ~/dev"
+alias dt "cd ~/Desktop"
 
 set -x VISUAL code
 set -x EDITOR $VISUAL
