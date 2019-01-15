@@ -9,6 +9,7 @@
   "workbench.colorTheme": "Monokai Pro (Filter Machine)",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "right",
   "editor.rulers": [80],
   "breadcrumbs.enabled": true,
   "workbench.editor.showTabs": false,
