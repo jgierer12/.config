@@ -15,9 +15,9 @@ for p in ~/.bin (yarn bin) (yarn global bin)
   end
 end
 
-for p in ~ ~/dev ~/Desktop
+for p in . ~ ~/dev ~/Desktop
   if test -d $p
-    set CDPATH $CDPATH ~ ~/dev ~/Desktop
+    set CDPATH $CDPATH $p
   end
 end
 
