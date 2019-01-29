@@ -9,7 +9,7 @@ for file in $fisher_path/conf.d/*.fish
   builtin source $file 2> /dev/null
 end
 
-for p in ~/.bin (yarn bin) (yarn global bin)
+for p in ~/.bin (yarn bin --offline) (yarn global bin --offline)
   if test -d $p
     set PATH $PATH $p
   end
