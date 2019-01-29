@@ -1,0 +1,4 @@
+/vendor
+!/vendor/fishfile
+/fish_variables
+/fishd.*
