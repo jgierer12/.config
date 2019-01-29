@@ -31,12 +31,8 @@
   local = "!git changelog origin/\"$(git rev-parse --abbrev-ref HEAD)\".."
   upstream = "!git changelog --no-merges ..origin/\"$(git rev-parse --abbrev-ref HEAD)\""
 
-  overview = log --all --since='2 weeks' --oneline --no-merges
-  today = "!git overview --since=00:06:00 --author=jgierer12@outlook.com"
-
   recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
   praise = blame
-  stats = shortlog -sn --since='10 weeks' --until='2 weeks'
   please = push --force-with-lease
   amend = commit --amend -C HEAD
 
