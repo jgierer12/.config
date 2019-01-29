@@ -1,8 +1,8 @@
 # Set config folder if unset
-set -q XDG_CONFIG_HOME; or set -x XDG_CONFIG_HOME ~/.config
+set --query XDG_CONFIG_HOME; or set --export XDG_CONFIG_HOME ~/.config
 
 # Change fisher path so vendor functions aren't mixed up with custom ones
-set -g fisher_path $XDG_CONFIG_HOME/fish/vendor
+set --global fisher_path $XDG_CONFIG_HOME/fish/vendor
 
 set fish_function_path $fish_function_path[1] $fisher_path/functions $fish_function_path[2..-1]
 set fish_complete_path $fish_complete_path[1] $fisher_path/completions $fish_complete_path[2..-1]
@@ -26,8 +26,8 @@ for p in . ~ ~/dev ~/Desktop
 end
 
 # Set editor to VSCode
-set -x VISUAL code
-set -x EDITOR $VISUAL
+set --export VISUAL code
+set --export EDITOR $VISUAL
 
 # Use ripgrep for fzf
-set -x FZF_DEFAULT_COMMAND 'rg --files --hidden --smart-case --glob "!.git/*"'
+set --export FZF_DEFAULT_COMMAND 'rg --files --hidden --smart-case --glob "!.git/*"'
