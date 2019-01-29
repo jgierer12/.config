@@ -13,16 +13,12 @@ end
 
 # Add custom bins and npm bins to PATH
 for p in ~/.bin (yarn bin --offline) (yarn global bin --offline)
-  if test -d $p
-    set PATH $PATH $p
-  end
+  test -d $p; and set PATH $PATH $p
 end
 
 # Add home, dev, desktop to CDPATH for fast navition
 for p in . ~ ~/dev ~/Desktop
-  if test -d $p
-    set CDPATH $CDPATH $p
-  end
+  test -d $p; and set CDPATH $CDPATH $p
 end
 
 # Set editor to VSCode
