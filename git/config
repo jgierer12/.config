@@ -5,19 +5,19 @@
 #   signingkey =
 
 [core]
-  editor = code -wn
+  editor = code --wait --new-window
   autocrlf = false
   eol = lf
 
 [merge]
   tool = vscode
 [mergetool "vscode"]
-  cmd = code --wait $MERGED
+  cmd = code --wait --new-window $MERGED
 
 [diff]
   tool = vscode
 [difftool "vscode"]
-  cmd = code --wait --diff $LOCAL $REMOTE
+  cmd = code --wait --new-window --diff $LOCAL $REMOTE
 
 [commit]
   template = ~/.config/git/message
