@@ -28,8 +28,8 @@
   graph = log --graph --all --decorate --stat --date=iso
 
   changelog = log --oneline --no-merges
-  local = "!git changelog origin/\"$(git rev-parse --abbrev-ref HEAD)\".."
-  upstream = "!git changelog --no-merges ..origin/\"$(git rev-parse --abbrev-ref HEAD)\""
+  local = "!git changelog \"@{u}\".."
+  upstream = "!git changelog ..\"@{u}\""
 
   recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
   praise = blame
