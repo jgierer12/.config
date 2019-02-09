@@ -37,7 +37,6 @@
   amend = commit --amend -C HEAD
 
   fast = commit -am fastcommit
-  fup = !git fast && git push
 
   nope = reset HEAD
   fuck = reset HEAD --hard
@@ -45,6 +44,27 @@
   master = checkout master
 
   conflicts = diff --name-only --diff-filter=U
+
+  f = fast
+  c = commit
+  cm = commit --message
+  ca = commit --amend
+  cam = commit --amend --message
+  caa = amend
+  s = status
+  d = diff
+  dt = difftool
+  co = checkout
+  ma = master
+  m = merge
+  l = changelog
+  ll = local
+  lu = upstream
+  ps = push
+  fe = fetch
+  pl = pull
+  rs = reset
+  rb = rebase
 
 [push]
   default = simple
