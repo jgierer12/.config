@@ -10,6 +10,7 @@
   "monokaiPro.fileIconsMonochrome": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
+  "window.restoreWindows": "none",
   "workbench.panel.defaultLocation": "right",
   "editor.rulers": [80],
   "breadcrumbs.enabled": true,
