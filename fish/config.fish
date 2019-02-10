@@ -27,3 +27,6 @@ set --export EDITOR $VISUAL
 
 # Use ripgrep for fzf
 set --export FZF_DEFAULT_COMMAND 'rg --files --hidden --smart-case --glob "!.git/*"'
+
+# Theming
+set pure_symbol_horizontal_bar '-'
