@@ -36,7 +36,7 @@
   please = push --force-with-lease
   amend = commit --amend --no-edit
 
-  fast = commit -am fastcommit
+  fast = commit --all --no-verify --no-gpg-sign --message fastcommit
 
   nope = reset HEAD
   fuck = reset HEAD --hard
