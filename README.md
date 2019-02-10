@@ -12,4 +12,8 @@ git init
 git remote add origin https://github.com/jgierer12/.config.git
 git fetch
 git reset --hard origin/master
+
+systemctl reboot
+
+vscode-install-saved-extensions
 ```
