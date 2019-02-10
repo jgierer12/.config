@@ -28,13 +28,13 @@
   graph = log --graph --all --decorate --stat --date=iso
 
   changelog = log --oneline --no-merges
-  local = "!git changelog \"@{u}\".."
-  upstream = "!git changelog ..\"@{u}\""
+  local = changelog "@{u}"..
+  upstream = changelog .."@{u}"
 
   recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
   praise = blame
   please = push --force-with-lease
-  amend = commit --amend -C HEAD
+  amend = commit --amend --no-edit
 
   fast = commit -am fastcommit
 
