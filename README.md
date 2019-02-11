@@ -1,8 +1,8 @@
 ## Contents
 
-- `./Code/User`: vscode
-- `./fish`: fish shell
 - `./git`: git
+- `./Code/User`: VSCode
+- `./fish`: fish shell
 
 ## Installation
 
