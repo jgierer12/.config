@@ -12,6 +12,9 @@ Prerequisites:
 - VSCode (AUR: visual-studio-code-bin)
 - fish
 - fisher
+- hub
+- npm
+- yarn
 
 ```fish
 cd ~/.config
