@@ -79,7 +79,7 @@ add yga "yarn global add"
 
 # VSCode
 add c "code"
-add ch "code ."
+add cc "code ."
 
 # Misc
 add rr "rm -rf"
