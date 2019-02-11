@@ -24,8 +24,8 @@ add gs "git status"
 add gsl "git status --long"
 
 add gg "git checkout"
-add ggb "git checkout -b"
 add ggm "git checkout master"
+add ggb "git checkout -b"
 
 add gd "git diff"
 add gdt "git difftool"
@@ -36,12 +36,12 @@ add gll "git changelog \"@{upstream}\".."
 add glu "git changelog ..\"@{upstream}\""
 add glb "git changelog master.."
 add glg "git graph"
-add gcl "git clone"
 
 add gp "git push"
 add gpu "git push --set-upstream"
 add gpl "git pull"
 
+add gcl "git clone"
 add gfe "git fetch"
 
 # npm
