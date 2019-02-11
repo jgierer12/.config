@@ -57,6 +57,10 @@
       "commands": ["workbench.action.files.save"]
     },
     {
+      "before": ["<leader>", "q", "q"],
+      "commands": ["workbench.action.closeWindow"]
+    },
+    {
       "before": ["<leader>", "w", "q"],
       "commands": [
         "workbench.action.files.save",
@@ -76,6 +80,10 @@
     {
       "before": ["<leader>", "w", "w"],
       "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "q", "q"],
+      "commands": ["workbench.action.closeWindow"]
     },
     {
       "before": ["<leader>", "w", "q"],
