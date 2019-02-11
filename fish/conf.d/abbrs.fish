@@ -23,6 +23,10 @@ add grr "git reset HEAD --hard"
 add gs "git status"
 add gsl "git status --long"
 
+add gb "git branch --verbose"
+add gbr "git branch --verbose --remote"
+add gbd "git branch --delete"
+
 add gg "git checkout"
 add ggm "git checkout master"
 add ggb "git checkout -b"
