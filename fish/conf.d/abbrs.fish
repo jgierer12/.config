@@ -73,6 +73,9 @@ add nad "npm install --save-dev"
 add yi "yarn install"
 add ya "yarn add"
 add yad "yarn add --dev"
+add yu "yarn upgrade"
+add yui "yarn upgrade-interactive"
+add yga "yarn global add"
 
 # VSCode
 add c "code"
