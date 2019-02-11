@@ -28,12 +28,13 @@ set --export EDITOR $VISUAL
 # Use ripgrep for fzf
 set --export FZF_DEFAULT_COMMAND 'rg --files --hidden --smart-case --glob "!.git/*"'
 
-# Theming
-set pure_symbol_horizontal_bar '-'
-
 # Emoji width (prevents glitches in GNOME terminal)
-if set --query TERM_PROGRAM; and test $TERM_PROGRAM = "vscode"
+if test "$TERM_PROGRAM" = "vscode"
   set fish_emoji_width 1
 else
   set fish_emoji_width 2
 end
+
+# Theming
+set pure_symbol_horizontal_bar '-'
+new-random-emoji
