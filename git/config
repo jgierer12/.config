@@ -26,45 +26,16 @@
 
 [alias]
   graph = log --graph --all --decorate --stat --date=iso
-
-  changelog = log --oneline --no-merges
-  local = changelog "@{u}"..
-  upstream = changelog .."@{u}"
-
+  changelog = log --oneline
   recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
-  praise = blame
   please = push --force-with-lease
-  amend = commit --amend --no-edit
-
-  fast = commit --all --no-verify --no-gpg-sign --message fastcommit
-
-  nope = reset HEAD
-  fuck = reset HEAD --hard
-
-  master = checkout master
-
+  fast = commit --all --no-verify --no-gpg-sign --message
   conflicts = diff --name-only --diff-filter=U
 
-  f = fast
-  c = commit
-  cm = commit --message
-  ca = commit --amend
-  cam = commit --amend --message
-  caa = amend
-  s = status
-  d = diff
-  dt = difftool
-  co = checkout
-  ma = master
-  m = merge
-  l = changelog
-  ll = local
-  lu = upstream
-  ps = push
-  fe = fetch
-  pl = pull
-  rs = reset
-  rb = rebase
+  # Just for fun
+  praise = blame
+  nope = reset HEAD
+  fuck = reset HEAD --hard
 
 [push]
   default = simple
