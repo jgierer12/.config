@@ -53,8 +53,15 @@
       "commands": ["editor.action.moveLinesDownAction"]
     },
     {
-      "before": ["<leader>", "w"],
+      "before": ["<leader>", "w", "w"],
       "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "w", "q"],
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.closeWindow"
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -67,8 +74,15 @@
       "commands": ["editor.action.moveLinesDownAction"]
     },
     {
-      "before": ["<leader>", "w"],
+      "before": ["<leader>", "w", "w"],
       "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "w", "q"],
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.closeWindow"
+      ]
     }
   ],
   "vim.handleKeys": {
