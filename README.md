@@ -6,6 +6,13 @@
 
 ## Installation
 
+Prerequisites:
+
+- git
+- VSCode (AUR: visual-studio-code-bin)
+- fish
+- fisher
+
 ```fish
 cd ~/.config
 git init
