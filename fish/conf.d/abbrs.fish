@@ -9,7 +9,8 @@ add ff "git fast fastcommit"
 
 ## Commit
 add gc "git commit"
-add gca "git commit --amend --no-edit"
+add gca "git commit --all"
+add gcm "git commit --amend --no-edit"
 
 ## Add
 add ga "git add"
