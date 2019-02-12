@@ -39,3 +39,5 @@ end
 set pure_symbol_horizontal_bar '-'
 set symbol_prompt '➜'
 new-random-emoji
+set pure_color_symbol_success (set_color green)
+set pure_color_current_folder (set_color cyan)
