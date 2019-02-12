@@ -3,6 +3,8 @@ function add
 end
 
 # git
+add g "git"
+
 ## Fast commit
 add f "git fast"
 add ff "git fast fastcommit"
@@ -68,14 +70,17 @@ add nrt "npm run test"
 add ni "npm install"
 add na "npm install --save"
 add nad "npm install --save-dev"
+add nu "npm uninstall"
 
 # yarn
 add yi "yarn install"
 add ya "yarn add"
 add yad "yarn add --dev"
+add yr "yarn remove"
 add yu "yarn upgrade"
 add yui "yarn upgrade-interactive"
 add yga "yarn global add"
+add ygr "yarn global remove"
 
 # VSCode
 add c "code"
