@@ -1,3 +1,3 @@
 function cdm
-  mkdir $argv; and cd $argv
+  mkdir --parents $argv; and cd $argv
 end
