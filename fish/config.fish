@@ -37,4 +37,5 @@ end
 
 # Theming
 set pure_symbol_horizontal_bar '-'
+set symbol_prompt '➜'
 new-random-emoji
