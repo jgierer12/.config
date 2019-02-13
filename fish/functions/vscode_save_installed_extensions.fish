@@ -1,3 +1,4 @@
 function vscode_save_installed_extensions
-  code --list-extensions > $XDG_CONFIG_HOME/Code/User/extensions
+  set exts (code --list-extensions)
+  string join \n $exts > $vscode_extensions_file
 end

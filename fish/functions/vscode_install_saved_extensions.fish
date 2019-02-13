@@ -1,11 +1,10 @@
 function vscode_install_saved_extensions
-  set extfile $XDG_CONFIG_HOME/Code/User/extensions
-  if not test -f $extfile
-    echo "No extension file"
+  if not test -f $vscode_extensions_file
+    echo 'No extensions file at '$vscode_extensions_file
     return 1
   end
 
   while read ext
     code --install-extension $ext
-  end < $extfile
+  end < $vscode_extensions_file
 end
