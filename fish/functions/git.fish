@@ -1,3 +1,3 @@
-function git
+function git --wraps hub
   hub $argv
 end
