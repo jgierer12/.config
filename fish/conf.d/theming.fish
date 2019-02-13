@@ -8,7 +8,7 @@ end
 # Prompt symbol
 set pure_color_symbol_success (set_color green)
 set symbol_prompt '➜'
-new-random-emoji
+new_random_emoji
 
 # Misc
 set pure_color_current_folder (set_color cyan)

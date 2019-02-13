@@ -25,5 +25,5 @@ git reset --hard origin/master
 
 systemctl reboot
 
-vscode-install-saved-extensions
+vscode_install_saved_extensions
 ```

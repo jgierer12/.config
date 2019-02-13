@@ -1,4 +1,4 @@
-function new-random-emoji
+function new_random_emoji
   set emojis 😅 👽 🔥 🚀 👻 🍔 😄 🍰 😎 😇 😼 💪 🦄 🌮 💯 🐳 🤩 🤯 🐶 🐻 🦊 ✨ ⚡️ 💫 🔮 🎊
 
   if test "$fish_emoji_width" = 1
