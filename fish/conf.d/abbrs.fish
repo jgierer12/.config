@@ -60,6 +60,7 @@ add gcl "git clone"
 add gfe "git fetch"
 add gm "git merge"
 add grb "git rebase"
+add gsh "git show"
 
 # npm
 add nr "npm run"
