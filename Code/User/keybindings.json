@@ -12,19 +12,19 @@
     "command": "extension.smoothscroll_cursorUp"
   },
   {
-    "key": "ctrl+down",
+    "key": "ctrl+shift+down",
     "command": "workbench.action.focusBelowGroup"
   },
   {
-    "key": "ctrl+up",
+    "key": "ctrl+shift+up",
     "command": "workbench.action.focusAboveGroup"
   },
   {
-    "key": "ctrl+left",
+    "key": "ctrl+shift+left",
     "command": "workbench.action.focusLeftGroup"
   },
   {
-    "key": "ctrl+right",
+    "key": "ctrl+shift+right",
     "command": "workbench.action.focusRightGroup"
   }
 ]
