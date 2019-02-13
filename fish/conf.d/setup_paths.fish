@@ -3,16 +3,15 @@ function add_to
   set paths $argv[2..-1]
 
   for path in $paths
-    if not contains $path $$pathname; and test -d $path
+    if not contains $path $$pathname
       set --global --export $pathname $$pathname $path
     end
   end
 end
 
 # Add custom bins and npm bins to PATH
-# Use yarn offline flag to avoid warning when offline
 # Prefer local npm bins (in node_modules) to global ones
-add_to PATH ~/.bin (yarn bin --offline) (yarn global bin --offline)
+add_to PATH ~/.bin ./node_modules/.bin ~/.yarn/bin
 
 # Add frequent dirs to CDPATH for fast navition
 # cd into their subdirs from anywhere
