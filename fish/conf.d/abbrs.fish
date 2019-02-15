@@ -53,6 +53,7 @@ add glg "git graph"
 ## Push/Pull
 add gp "git push"
 add gpu "git push --set-upstream"
+add gpo "git push --set-upstream origin"
 add gpl "git pull"
 
 ## Misc
@@ -87,7 +88,11 @@ add ygr "yarn global remove"
 add c "code"
 add cc "code ."
 
+# cd
+add cfg "cd ~/.config"
+
 # Misc
 add rr "rm -rf"
+add pg "ping google.com"
 
 functions -e add
