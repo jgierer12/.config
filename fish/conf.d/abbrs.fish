@@ -54,6 +54,7 @@ add glg "git graph"
 add gp "git push"
 add gpu "git push --set-upstream"
 add gpo "git push --set-upstream origin"
+add gpj "git push --set-upstream jgierer12"
 add gpl "git pull"
 
 ## hub
