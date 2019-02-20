@@ -22,7 +22,7 @@ add gap "git add --patch"
 ## Reset
 add gr "git reset"
 add grh "git reset HEAD"
-add grr "git reset HEAD --hard"
+add grr "git reset --hard HEAD"
 
 ## Status
 add gs "git status"
