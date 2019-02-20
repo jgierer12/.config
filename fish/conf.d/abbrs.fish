@@ -56,6 +56,11 @@ add gpu "git push --set-upstream"
 add gpo "git push --set-upstream origin"
 add gpl "git pull"
 
+## hub
+add ghc "git create"
+add ghf "git fork"
+add ghb "git browse"
+
 ## Misc
 add gcl "git clone"
 add gfe "git fetch"
