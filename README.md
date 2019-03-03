@@ -3,18 +3,9 @@
 - `./git`: git
 - `./Code/User`: VSCode
 - `./fish`: fish shell
+- `./packages`: installed packages (from Manjaro repos and AUR)
 
 ## Installation
-
-Prerequisites:
-
-- git
-- VSCode (AUR: visual-studio-code-bin)
-- fish
-- fisher
-- hub
-- npm
-- yarn
 
 ```fish
 cd ~/.config
@@ -22,6 +13,10 @@ git init
 git remote add origin https://github.com/jgierer12/.config.git
 git fetch
 git reset --hard origin/master
+
+pacman -S yay fish
+fish -c install_saved_packages
+chsh -s /usr/bin/fish
 
 reboot
 
