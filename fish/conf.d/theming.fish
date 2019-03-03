@@ -6,10 +6,10 @@ else
 end
 
 # Prompt symbol
-set pure_color_symbol_success (set_color green)
+set pure_color_prompt_on_success (set_color green)
 set symbol_prompt '➜'
 new_random_emoji
 
 # Misc
-set pure_color_current_folder (set_color cyan)
-set pure_symbol_horizontal_bar '-' # Window title separator
+set pure_color_current_directory (set_color cyan)
+set pure_symbol_title_bar_separator '-' # Window title separator
