@@ -71,7 +71,7 @@ function deps_save_vscode
 end
 
 function deps_save_yarn_global
-  set regexp '^.+"(.+)@.+$'
+  set regexp '^.+"(.+)@.+$' # https://regex101.com/r/nO33wo/1
   set deps (yarn global list | rg --replace '$1' --regexp $regexp)
 
   _deps_set yarn_global $deps
