@@ -57,6 +57,10 @@ add gpo "git push --set-upstream origin"
 add gpj "git push --set-upstream jgierer12"
 add gpl "git pull"
 
+## Merge
+add gm "git merge"
+add gmm "git merge master"
+
 ## hub
 add ghc "git create"
 add ghf "git fork"
@@ -65,7 +69,6 @@ add ghb "git browse"
 ## Misc
 add gcl "git clone"
 add gfe "git fetch"
-add gm "git merge"
 add grb "git rebase"
 add gsh "git show"
 
