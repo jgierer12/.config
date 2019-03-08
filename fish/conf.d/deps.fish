@@ -26,15 +26,13 @@ end
 
 # Install
 function deps_install_system
-  if not type --quiet yay; or test -n "$SKIP_SYSTEM_DEPS"
-    return 0
+  if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
+    yay --sync --needed --refresh --noconfirm (_deps_get system)
   end
-
-  yay --sync --needed --refresh --noconfirm (_deps_get system)
 end
 
 function deps_install_vscode
-  _deps_get vscode | while read ext
+  for ext in (_deps_get vscode)
     code --install-extension $ext
   end
 end
