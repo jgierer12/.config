@@ -9,7 +9,9 @@ function sysupdate
   deps_install_all
 
   _sysupdate_log_section 'System deps'
-  yay --sync --sysupgrade --refresh --noconfirm
+  if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
+    yay --sync --sysupgrade --refresh --noconfirm
+  end
 
   _sysupdate_log_section 'Firmware'
   fwupdmgr update
