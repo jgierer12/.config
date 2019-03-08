@@ -103,5 +103,6 @@ add cfg "cd ~/.config"
 # Misc
 add rr "rm -rf"
 add pg "ping google.com"
+add syu "sysupdate"
 
 functions -e add
