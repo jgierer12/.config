@@ -21,7 +21,7 @@ function _deps_set
 end
 
 function _deps_log_section
-  echo \n(set_color --bold cyan)=== $argv ===(set_color normal)
+  log_section cyan $argv
 end
 
 # Install
