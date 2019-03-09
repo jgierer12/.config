@@ -17,6 +17,7 @@ binutils
 bison
 btrfs-progs
 bzip2
+caffeine-ng
 capitaine-cursors
 caribou
 chrome-gnome-shell
@@ -87,8 +88,13 @@ gnome-screenshot
 gnome-session
 gnome-settings-daemon
 gnome-shell
+gnome-shell-extension-appindicator
+gnome-shell-extension-coverflow-alt-tab
+gnome-shell-extension-dash-to-dock
 gnome-shell-extension-gsconnect
 gnome-shell-extension-manjaro-update
+gnome-shell-extension-no-topleft-hot-corner
+gnome-shell-extension-openweather
 gnome-shell-extensions
 gnome-system-log
 gnome-system-monitor
@@ -259,6 +265,7 @@ psmisc
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+python-ewmh
 python-fuzzysearch
 python-neovim
 python-pip
