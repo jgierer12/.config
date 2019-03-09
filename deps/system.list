@@ -27,7 +27,6 @@ cpupower
 crda
 cronie
 cryptsetup
-dconf-editor
 device-mapper
 dhclient
 dhcpcd
@@ -54,26 +53,20 @@ filesystem
 filezilla
 findutils
 firefox
-firefox-developer-edition
-firefox-i18n-de
 firefox-i18n-en-us
 fish
 fisher
-flatpak
 flex
-font-manager
 fprintd
 fwupd
 gawk
 gcc
 gcc-libs
-gconf-editor
 gdm
 gedit
 gettext
 gifski
 gimp
-gimp-help-de
 gimp-help-en
 gitkraken
 glibc
@@ -106,7 +99,6 @@ gnome-user-docs
 gnome-user-share
 gnome-wallpapers
 gnome-weather
-gogh-git
 gparted
 grep
 grilo-plugins
@@ -134,7 +126,6 @@ hardcode-tray
 haveged
 highlight
 hub
-humanity-icon-theme
 hunspell-de
 hyphen-de
 hyphen-en
@@ -158,7 +149,6 @@ kernel-alive
 krita
 krita-plugin-gmic
 kvantum-manjaro
-lenovo-throttling-fix-git
 less
 lib32-gnutls
 lib32-libva-vdpau-driver
@@ -176,7 +166,6 @@ libdvdcss
 libgnome-keyring
 libheif
 libreoffice-fresh
-libreoffice-fresh-de
 libva-mesa-driver
 libva-vdpau-driver
 licenses
@@ -186,14 +175,12 @@ logrotate
 lollypop
 lrzip
 lsb-release
-lutris
 lvm2
 m4
 mailspring
 make
 man-db
 man-pages
-man-pages-de
 manjaro-alsa
 manjaro-application-utility
 manjaro-artwork
@@ -204,7 +191,6 @@ manjaro-firmware
 manjaro-gdm-check
 manjaro-gdm-theme
 manjaro-gnome-vanilla
-manjaro-hello
 manjaro-hotfixes
 manjaro-printer
 manjaro-pulse
@@ -246,7 +232,6 @@ ntfs-3g
 ntp
 numlockx
 obs-studio
-oni
 opencolorio
 openresolv
 openssh
@@ -295,7 +280,6 @@ simple-scan
 simplenote-electron-bin
 snapd
 sni-qt-patched-git
-solaar
 spectre-meltdown-checker
 speech-dispatcher
 spotify
