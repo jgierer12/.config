@@ -99,6 +99,7 @@ add cc "code ."
 
 # cd
 add cfg "cd ~/.config"
+add - "cd -"
 
 # Misc
 add rr "rm -rf"
