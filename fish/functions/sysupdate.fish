@@ -14,7 +14,7 @@ function sysupdate
   end
 
   _sysupdate_log_section 'Firmware'
-  fwupdmgr update
+  fwupdmgr refresh; and fwupdmgr update
 
   _sysupdate_log_section 'Node'
   nvm use latest
