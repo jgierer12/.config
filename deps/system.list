@@ -18,7 +18,6 @@ bison
 btrfs-progs
 bzip2
 caffeine-ng
-capitaine-cursors
 caribou
 chrome-gnome-shell
 chromium
@@ -46,6 +45,7 @@ evolution-data-server
 evolution-on
 exfat-utils
 f2fs-tools
+fd
 ffmpegthumbnailer
 figma-bin
 file
@@ -177,7 +177,7 @@ libva-mesa-driver
 libva-vdpau-driver
 licenses
 linux-firmware
-linux420
+linux50
 logrotate
 lollypop
 lrzip
@@ -246,7 +246,7 @@ os-prober
 p7zip
 pacman
 pacui
-pamac
+pamac-dev
 papirus-folders-git
 papirus-icon-theme
 papirus-maia-icon-theme
@@ -272,7 +272,6 @@ python-neovim
 python-pip
 python-pycryptodome
 python2-libappindicator
-python2-neovim
 python2-pygments
 python2-scour
 qopenvpn
@@ -339,6 +338,7 @@ xarchiver
 xautomation
 xbindkeys
 xclip
+xcursor-capitaine
 xcursor-maia
 xdg-su
 xdg-user-dirs
