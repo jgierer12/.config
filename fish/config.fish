@@ -7,3 +7,6 @@ set --export EDITOR $VISUAL
 
 # Set up fuck
 thefuck --alias | source
+
+# Set up jump
+jump shell | source
