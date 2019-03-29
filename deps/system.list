@@ -36,7 +36,6 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
-dunst
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -128,7 +127,6 @@ gvfs-mtp
 gvfs-smb
 gzip
 hardcode-fixer-git
-hardcode-tray
 haveged
 highlight
 hub
@@ -245,7 +243,6 @@ openssh
 os-prober
 p7zip
 pacman
-pacui
 pamac-dev
 papirus-folders-git
 papirus-icon-theme
