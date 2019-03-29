@@ -15,6 +15,7 @@ baobab
 bash
 binutils
 bison
+bitwarden-bin
 btrfs-progs
 bzip2
 caffeine-ng
@@ -296,10 +297,13 @@ sysfsutils
 systemd-fsck-silent
 systemd-sysvcompat
 tar
+telegram-desktop
 telepathy-accounts-signon
 terminus-font
 texinfo
 the_silver_searcher
+thefuck
+tilix
 timeshift
 tk
 tlp
@@ -314,6 +318,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 ttf-ms-fonts
+ttf-opensans
 ttf-roboto
 unace
 unrar
