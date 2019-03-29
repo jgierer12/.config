@@ -232,6 +232,8 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nfs-utils
+nodejs
+npm
 nss-mdns
 ntfs-3g
 ntp
