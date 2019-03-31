@@ -39,18 +39,26 @@
   },
   "prettier.ignorePath": ".gitignore",
   "vim.visualstar": true,
-  "vim.hlsearch": false,
+  "vim.hlsearch": true,
   "vim.leader": "<space>",
   "vim.sneak": true,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.normalModeKeyBindings": [
     {
-      "before": ["<C-k>"],
+      "before": ["<leader>", "k"],
       "commands": ["editor.action.moveLinesUpAction"]
     },
     {
-      "before": ["<C-j>"],
+      "before": ["<leader>", "j"],
       "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
     },
     {
       "before": ["<leader>", "w", "w"],
@@ -66,37 +74,49 @@
         "workbench.action.files.save",
         "workbench.action.closeWindow"
       ]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<C-w>"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "before": ["<leader>", "/"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["<leader>", "\""],
+      "commands": [":reg"]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": ["<C-k>"],
+      "before": ["<leader>", "k"],
       "commands": ["editor.action.moveLinesUpAction"]
     },
     {
-      "before": ["<C-j>"],
+      "before": ["<leader>", "j"],
       "commands": ["editor.action.moveLinesDownAction"]
-    },
-    {
-      "before": ["<leader>", "w", "w"],
-      "commands": ["workbench.action.files.save"]
-    },
-    {
-      "before": ["<leader>", "q", "q"],
-      "commands": ["workbench.action.closeWindow"]
-    },
-    {
-      "before": ["<leader>", "w", "q"],
-      "commands": [
-        "workbench.action.files.save",
-        "workbench.action.closeWindow"
-      ]
     }
   ],
   "vim.handleKeys": {
     "<C-u>": false,
     "<C-b>": false,
-    "<C-d>": false,
-    "<C-w>": false
+    "<C-d>": false
   }
 }

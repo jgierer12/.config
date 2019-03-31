@@ -10,21 +10,5 @@
   {
     "key": "ctrl+u",
     "command": "extension.smoothscroll_cursorUp"
-  },
-  {
-    "key": "ctrl+shift+down",
-    "command": "workbench.action.focusBelowGroup"
-  },
-  {
-    "key": "ctrl+shift+up",
-    "command": "workbench.action.focusAboveGroup"
-  },
-  {
-    "key": "ctrl+shift+left",
-    "command": "workbench.action.focusLeftGroup"
-  },
-  {
-    "key": "ctrl+shift+right",
-    "command": "workbench.action.focusRightGroup"
   }
 ]
