@@ -40,9 +40,7 @@ dosfstools
 e2fsprogs
 ecryptfs-utils
 efibootmgr
-evolution
 evolution-data-server
-evolution-on
 exfat-utils
 f2fs-tools
 fd
@@ -103,7 +101,6 @@ gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
-gnome-weather
 gparted
 grep
 grilo-plugins
