@@ -16,10 +16,6 @@ function sysupdate
   _sysupdate_log_section 'Firmware'
   fwupdmgr refresh; and fwupdmgr update
 
-  _sysupdate_log_section 'Node'
-  nvm use latest
-  echo 'Using node '(node --version)' (latest)'
-
   _sysupdate_log_section 'Fish completions'
   fish_update_completions
 end
