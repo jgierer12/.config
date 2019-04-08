@@ -1,13 +1,19 @@
 {
-  "window.titleBarStyle": "custom",
   "editor.fontFamily": "'Dank Mono', monospace",
   "editor.fontSize": 20,
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "'Dank Mono', monospace",
   "terminal.integrated.fontSize": 18,
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Monochrome Icons",
-  "monokaiPro.fileIconsMonochrome": true,
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#528BFF80"
+  },
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 1,
+  "window.menuBarVisibility": "toggle",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "window.restoreWindows": "none",

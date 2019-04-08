@@ -1,4 +1,6 @@
 aaron-bond.better-comments
+akamud.vscode-theme-onedark
+akamud.vscode-theme-onelight
 CoenraadS.bracket-pair-colorizer-2
 cyansprite.smoothscroll
 dbaeumer.vscode-eslint
@@ -15,6 +17,7 @@ monokai.theme-monokai-pro-vscode
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 ow.vscode-subword-navigation
+PKief.material-icon-theme
 Prisma.vscode-graphql
 silvenon.mdx
 skyapps.fish-vscode
