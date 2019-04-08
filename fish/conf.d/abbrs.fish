@@ -102,7 +102,6 @@ add o "open"
 add oo "open ."
 
 # cd
-add cfg "cd ~/.config"
 add - "cd -"
 
 # Misc
