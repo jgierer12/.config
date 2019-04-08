@@ -97,6 +97,10 @@ add ygr "yarn global remove"
 add c "code"
 add cc "code ."
 
+# open
+add o "open"
+add oo "open ."
+
 # cd
 add cfg "cd ~/.config"
 add - "cd -"
