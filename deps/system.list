@@ -12,6 +12,7 @@ avahi
 b43-fwcutter
 baobab
 bash
+bat
 binutils
 bison
 bitwarden-bin
@@ -44,6 +45,7 @@ exfat-utils
 f2fs-tools
 fd
 ffmpegthumbnailer
+figma-bin
 file
 file-roller
 filesystem
@@ -124,6 +126,7 @@ gvfs-mtp
 gvfs-smb
 gzip
 hardcode-fixer-git
+hardcode-tray
 haveged
 highlight
 htop
@@ -209,6 +212,7 @@ mesa-vdpau
 mhwd
 mhwd-db
 mhwd-tui
+mixxx
 mkinitcpio-openswap
 mobile-broadband-provider-info
 modemmanager
@@ -234,6 +238,7 @@ ntfs-3g
 ntp
 numlockx
 obs-studio
+ocenaudio
 opencolorio
 openresolv
 openssh
@@ -270,6 +275,8 @@ python2-scour
 qopenvpn
 qt5-translations
 reiserfsprogs
+rhythmbox
+rhythmbox-plugin-alternative-toolbar-git
 ripgrep
 rsync
 s-nail
@@ -278,13 +285,14 @@ sed
 shadow
 simple-scan
 simplenote-electron-bin
-snapd
 sni-qt-patched-git
 spectre-meltdown-checker
 speech-dispatcher
 spotify
 sshfs
+steam-manjaro
 sudo
+suru-plus-git
 sushi
 sysfsutils
 systemd-fsck-silent
@@ -311,6 +319,7 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 ttf-roboto
+typora
 unace
 unrar
 usb_modeswitch
@@ -320,6 +329,7 @@ vde2
 vim
 vim-spell-de
 vim-spell-en
+vimix-gtk-themes-git
 vino
 visual-studio-code-bin
 vulkan-intel
