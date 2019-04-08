@@ -1,6 +1,5 @@
 acpi
 acpid
-adapta-maia-theme
 adwaita-icon-theme
 alsa-firmware
 alsa-utils
@@ -153,7 +152,6 @@ jump-git
 kernel-alive
 krita
 krita-plugin-gmic
-kvantum-manjaro
 less
 lib32-gnutls
 lib32-libva-vdpau-driver
@@ -177,7 +175,6 @@ licenses
 linux-firmware
 linux50
 logrotate
-lollypop
 lrzip
 lsb-release
 lvm2
@@ -195,7 +192,6 @@ manjaro-documentation-en
 manjaro-firmware
 manjaro-gdm-check
 manjaro-gdm-theme
-manjaro-gnome-vanilla
 manjaro-hotfixes
 manjaro-printer
 manjaro-pulse
@@ -204,7 +200,6 @@ manjaro-settings-manager-notifier
 manjaro-system
 manjaro-wallpapers-18.0
 materia-gtk-theme
-mc
 mdadm
 mdloader-bin
 memtest86+
@@ -248,7 +243,6 @@ pacman
 pamac-dev
 papirus-folders-git
 papirus-icon-theme-git
-papirus-maia-icon-theme
 patch
 pciutils
 peek
@@ -300,13 +294,11 @@ telegram-desktop
 telepathy-accounts-signon
 terminus-font
 texinfo
-the_silver_searcher
 thefuck
 tilix
 timeshift
 tk
 tlp
-totem
 tracker
 tracker-miners
 ttf-bitstream-vera
@@ -335,14 +327,12 @@ vulkan-radeon
 wallpapers-2018
 wget
 which
-wine-staging
 wpa_supplicant
 xarchiver
 xautomation
 xbindkeys
 xclip
 xcursor-capitaine
-xcursor-maia
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
