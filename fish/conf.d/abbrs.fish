@@ -36,6 +36,7 @@ add gbd "git branch --delete"
 ## Checkout (go)
 add gg "git checkout"
 add ggm "git checkout master"
+add gg- "git checkout -"
 add ggb "git checkout -b"
 
 ## Diff
@@ -78,6 +79,7 @@ add nrs "npm run start"
 add nrb "npm run build"
 add nrd "npm run develop"
 add nrt "npm run test"
+add nrf "npm run format"
 add ni "npm install"
 add na "npm install --save"
 add nad "npm install --save-dev"
