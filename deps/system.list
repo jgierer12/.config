@@ -13,9 +13,11 @@ b43-fwcutter
 baobab
 bash
 bat
+beep
 binutils
 bison
 bitwarden-bin
+bookworm
 btrfs-progs
 bzip2
 caffeine-ng
@@ -28,6 +30,7 @@ cpupower
 crda
 cronie
 cryptsetup
+dconf-editor
 device-mapper
 dhclient
 dhcpcd
@@ -40,6 +43,7 @@ dosfstools
 e2fsprogs
 ecryptfs-utils
 efibootmgr
+evemu
 evolution-data-server
 exfat-utils
 f2fs-tools
@@ -83,6 +87,7 @@ gnome-getting-started-docs
 gnome-keyring
 gnome-mpv
 gnome-online-accounts
+gnome-power-manager
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -107,7 +112,6 @@ gparted
 grep
 grilo-plugins
 grub
-grub-customizer
 grub-theme-manjaro
 gst-libav
 gst-plugins-bad
@@ -135,7 +139,6 @@ hunspell-de
 hyphen-de
 hyphen-en
 illyria-wallpaper
-imagewriter
 inetutils
 inkscape
 insync
@@ -178,6 +181,7 @@ licenses
 linux-firmware
 linux50
 logrotate
+lollypop
 lrzip
 lsb-release
 lvm2
@@ -202,7 +206,6 @@ manjaro-release
 manjaro-settings-manager-notifier
 manjaro-system
 manjaro-wallpapers-18.0
-materia-gtk-theme
 mdadm
 mdloader-bin
 memtest86+
@@ -212,6 +215,7 @@ mesa-vdpau
 mhwd
 mhwd-db
 mhwd-tui
+micro-manjaro
 mixxx
 mkinitcpio-openswap
 mobile-broadband-provider-info
@@ -232,6 +236,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nfs-utils
 nodejs
+nordnm
 npm
 nss-mdns
 ntfs-3g
@@ -246,12 +251,12 @@ os-prober
 p7zip
 pacman
 pamac-dev
-papirus-folders-git
-papirus-icon-theme-git
 patch
 pciutils
+pcloud-drive
 peek
 perl
+picard
 pkgconf
 pocket-casts-linux-bin
 polkit-gnome
@@ -269,20 +274,21 @@ python-fuzzysearch
 python-neovim
 python-pip
 python-pycryptodome
+python-pylast
+python-wikipedia
 python2-libappindicator
 python2-pygments
 python2-scour
-qopenvpn
+qbittorrent
 qt5-translations
 reiserfsprogs
-rhythmbox
-rhythmbox-plugin-alternative-toolbar-git
 ripgrep
 rsync
 s-nail
 seahorse
 sed
 shadow
+signal-desktop-bin
 simple-scan
 simplenote-electron-bin
 sni-qt-patched-git
@@ -291,9 +297,9 @@ speech-dispatcher
 spotify
 sshfs
 steam-manjaro
+subliminal
 sudo
 suru-plus-git
-sushi
 sysfsutils
 systemd-fsck-silent
 systemd-sysvcompat
@@ -309,6 +315,7 @@ tk
 tlp
 tracker
 tracker-miners
+translate-shell
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -329,7 +336,6 @@ vde2
 vim
 vim-spell-de
 vim-spell-en
-vimix-gtk-themes-git
 vino
 visual-studio-code-bin
 vulkan-intel
@@ -338,9 +344,7 @@ wallpapers-2018
 wget
 which
 wpa_supplicant
-xarchiver
 xautomation
-xbindkeys
 xclip
 xcursor-capitaine
 xdg-su
@@ -358,10 +362,12 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
+xf86-video-vesa
 xfsprogs
 xorg-server
 xorg-twm
 xorg-xdpyinfo
+xorg-xev
 xorg-xinit
 xorg-xprop
 xsel
