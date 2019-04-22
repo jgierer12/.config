@@ -1,3 +1,3 @@
 function specs --wraps neofetch
-  neofetch --stdout
+  neofetch --stdout | cb copy
 end
