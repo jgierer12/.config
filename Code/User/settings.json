@@ -4,7 +4,7 @@
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "'Dank Mono', monospace",
   "terminal.integrated.fontSize": 18,
-  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#528BFF80"
