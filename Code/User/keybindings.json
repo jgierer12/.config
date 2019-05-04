@@ -2,13 +2,5 @@
   {
     "key": "capslock",
     "command": "extension.vim_escape"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "extension.smoothscroll_cursorDown"
-  },
-  {
-    "key": "ctrl+u",
-    "command": "extension.smoothscroll_cursorUp"
   }
 ]

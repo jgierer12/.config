@@ -1,71 +1,70 @@
 {
+  // Visuals
   "editor.fontFamily": "'Dank Mono', monospace",
   "editor.fontSize": 20,
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "'Dank Mono', monospace",
   "terminal.integrated.fontSize": 18,
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#528BFF80"
-  },
-  "material-icon-theme.folders.color": "#90a4ae",
-  "material-icon-theme.activeIconPack": "react",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.saturation": 1,
-  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "window.titleBarStyle": "custom",
   "workbench.sideBar.location": "right",
+  "window.menuBarVisibility": "toggle",
+  "workbench.panel.defaultLocation": "right", // Terminal
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+
+  // Disable features
+  "window.zoomLevel": 0,
   "workbench.startupEditor": "none",
   "window.restoreWindows": "none",
-  "workbench.panel.defaultLocation": "right",
-  "editor.rulers": [80],
-  "breadcrumbs.enabled": true,
+  "workbench.statusBar.feedback.visible": false,
+  "explorer.openEditors.visible": 0,
   "workbench.editor.showTabs": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "boundary",
-  "extensions.autoUpdate": true,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.autoIndent": true,
   "editor.dragAndDrop": false,
-  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+
+  // Enable features
+  "editor.rulers": [80],
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "extensions.autoUpdate": true,
+  "editor.autoIndent": true,
+  "editor.lineNumbers": "relative",
+
+  // Git
   "git.autofetch": true,
   "git.enableCommitSigning": true,
+
+  // Keyboard
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.acceptSuggestionOnEnter": "off",
+
+  // Formatting
   "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
   "editor.formatOnSave": true,
   "html.format.enable": false,
-  "json.format.enable": true,
   "javascript.format.enable": false,
   "typescript.format.enable": false,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.lineNumbers": "relative",
+  "json.format.enable": true,
   "eslint.autoFixOnSave": true,
   "eslint.options": {
     "ignorePath": ".gitignore"
   },
   "prettier.ignorePath": ".gitignore",
+
+  // Vim
   "vim.visualstar": true,
   "vim.hlsearch": true,
   "vim.leader": "<space>",
-  "vim.sneak": true,
-  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.normalModeKeyBindings": [
-    {
-      "before": ["<leader>", "k"],
-      "commands": ["editor.action.moveLinesUpAction"]
-    },
-    {
-      "before": ["<leader>", "j"],
-      "commands": ["editor.action.moveLinesDownAction"]
-    },
-    {
-      "before": ["J"],
-      "after": ["5", "j"]
-    },
-    {
-      "before": ["K"],
-      "after": ["5", "k"]
-    },
     {
       "before": ["<leader>", "w", "w"],
       "commands": ["workbench.action.files.save"]
@@ -99,7 +98,7 @@
     },
     {
       "before": ["<C-w>"],
-      "commands": ["workbench.action.closeEditorsInGroup"]
+      "commands": ["workbench.action.editorLayoutSingle"]
     },
     {
       "before": ["<leader>", "/"],
@@ -110,19 +109,7 @@
       "commands": [":reg"]
     }
   ],
-  "vim.visualModeKeyBindings": [
-    {
-      "before": ["<leader>", "k"],
-      "commands": ["editor.action.moveLinesUpAction"]
-    },
-    {
-      "before": ["<leader>", "j"],
-      "commands": ["editor.action.moveLinesDownAction"]
-    }
-  ],
   "vim.handleKeys": {
-    "<C-u>": false,
-    "<C-b>": false,
-    "<C-d>": false
+    "<C-b>": false // Toggle sidebar
   }
 }
