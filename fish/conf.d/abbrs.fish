@@ -22,7 +22,9 @@ add gap "git add --patch"
 ## Reset
 add gr "git reset"
 add grh "git reset HEAD"
+add gr1 "git reset HEAD~1"
 add grr "git reset --hard HEAD"
+add grr1 "git reset --hard HEAD~1"
 
 ## Status
 add gs "git status"
@@ -55,6 +57,7 @@ add glg "git graph"
 add gp "git push"
 add gpu "git push --set-upstream"
 add gpo "git push --set-upstream origin"
+add gpom "git push --set-upstream origin master"
 add gpj "git push --set-upstream jgierer12"
 add gpl "git pull"
 
