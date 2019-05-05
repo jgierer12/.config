@@ -5,9 +5,6 @@ end
 function sysupdate
   sudo echo noop > /dev/null # Ask for root password
 
-  _sysupdate_log_section 'Managed deps'
-  deps_install_all
-
   _sysupdate_log_section 'System deps'
   if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
     yay --sync --sysupgrade --refresh --noconfirm
