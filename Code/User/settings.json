@@ -40,9 +40,6 @@
   // Git
   "git.autofetch": true,
   "git.enableCommitSigning": true,
-
-  // Keyboard
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.acceptSuggestionOnEnter": "off",
 
   // Formatting
