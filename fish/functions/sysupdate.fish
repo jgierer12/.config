@@ -13,6 +13,12 @@ function sysupdate
   _sysupdate_log_section 'Firmware'
   fwupdmgr refresh; and fwupdmgr update
 
+  _sysupdate_log_section 'Yarn global packages'
+  yarn global upgrade
+
+  _sysupdate_log_section 'Fisher packages'
+  fisher
+
   _sysupdate_log_section 'Fish completions'
   fish_update_completions
 end
