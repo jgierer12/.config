@@ -9,9 +9,8 @@ function add_to
   end
 end
 
-# Add custom bins and npm bins to PATH
-# Prefer local npm bins (in node_modules) to global ones
-add_to PATH ~/.bin ./node_modules/.bin ~/.yarn/bin
+# Add custom bins and yarn bins to PATH
+add_to PATH ~/.bin ~/.yarn/bin
 
 # Add frequent dirs to CDPATH for fast navition
 # cd into their subdirs from anywhere
