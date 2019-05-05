@@ -14,5 +14,5 @@ if command -v pacman > /dev/null && [ -z "$SKIP_SYSTEM_DEPS" ] ; then
 fi
 
 if command -v fish > /dev/null; then
-  fish --command 'deps_install_system; sysupdate'
+  fish --command 'deps_install_system; deps_install_all; sysupdate'
 fi
