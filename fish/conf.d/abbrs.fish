@@ -33,11 +33,11 @@ add gb "git branch --verbose"
 add gbr "git branch --verbose --remote"
 add gbd "git branch --delete"
 
-## Checkout (go)
-add gg "git checkout"
-add ggm "git checkout master"
-add gg- "git checkout -"
-add ggb "git checkout -b"
+## go (checkout)
+add gg "git go"
+add ggb "git go" # Muscle memory
+add ggm "git go master"
+add gg- "git go -"
 
 ## Diff
 add gd "git diff"
