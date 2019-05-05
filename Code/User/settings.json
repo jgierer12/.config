@@ -6,7 +6,7 @@
   "terminal.integrated.fontFamily": "'Dank Mono', monospace",
   "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "Monokai Pro",
-  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.iconTheme": "Monokai Pro Monochrome Icons",
   "window.titleBarStyle": "custom",
   "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "toggle",
