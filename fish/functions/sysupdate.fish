@@ -2,6 +2,7 @@ function _sysupdate_log_section
   log_section green $argv
 end
 
+# Update various system components
 function sysupdate
   sudo echo noop > /dev/null # Ask for root password
 

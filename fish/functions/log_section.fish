@@ -1,3 +1,4 @@
+# Simple reusable section header
 function log_section
   set color $argv[1]
   set message $argv[2..-1]

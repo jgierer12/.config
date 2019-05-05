@@ -1,3 +1,4 @@
+# Randomly prepend a different emoji to the prompt symbol
 function new_random_emoji
   set emojis 😅 👽 🔥 🚀 👻 🍔 😄 🍰 😎 😇 😼 💪 🦄 🌮 💯 🐳 🤩 🤯 🐶 🐻 🦊 ✨ ⚡️ 💫 🔮 🎊
 
