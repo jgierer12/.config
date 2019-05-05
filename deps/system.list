@@ -17,7 +17,6 @@ beep
 binutils
 bison
 bitwarden-bin
-bookworm
 btrfs-progs
 bzip2
 caffeine-ng
@@ -47,6 +46,7 @@ ecryptfs-utils
 efibootmgr
 eog
 evemu
+evolution
 evolution-data-server
 exfat-utils
 f2fs-tools
