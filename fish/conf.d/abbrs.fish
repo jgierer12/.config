@@ -64,6 +64,7 @@ add gpl "git pull"
 ## Merge
 add gm "git merge"
 add gmm "git merge master"
+add gmo "git merge origin/master"
 
 ## hub
 add ghc "git create"
@@ -90,6 +91,7 @@ add nad "npm install --save-dev"
 add nu "npm uninstall"
 
 # yarn
+add y "yarn"
 add yi "yarn install"
 add ya "yarn add"
 add yad "yarn add --dev"
