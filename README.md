@@ -34,15 +34,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/jgierer12/.config/master/i
 syu  # expands to: sysupdate
 ```
 
-Installs all saved dependencies; upgrades system, yarn global, and fish
-dependencies; updates firmware; updates node; and updates fish completions.
+Upgrades system, yarn global, and fish dependencies; updates firmware;
+and updates fish completions.
 
 ### After changing settings or adding/removing dependencies
 
 ```fish
 deps_save_all
 
-cfg  # expands to: cd ~/.config
+cd $XDG_CONFIG_HOME
 gaa  # expands to: git add --all
 gc   # expands to: git commit
 gp   # expands to: git push
