@@ -5,7 +5,7 @@
 #   signingkey =
 
 [core]
-  editor = code --wait --new-window
+  editor = nvim
   autocrlf = false
   eol = lf
 
