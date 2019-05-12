@@ -9,6 +9,7 @@ atomicparsley
 autoconf
 automake
 avahi
+aws-cli
 b43-fwcutter
 baobab
 bash
@@ -59,12 +60,9 @@ file-roller
 filesystem
 filezilla
 findutils
-firefox
 firefox-developer-edition
 firefox-developer-edition-i18n-de
 firefox-developer-edition-i18n-en-us
-firefox-i18n-de
-firefox-i18n-en-us
 fish
 fisher
 flex
