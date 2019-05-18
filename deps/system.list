@@ -107,7 +107,6 @@ gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
 gnome-shell-extension-gsconnect
 gnome-shell-extension-no-topleft-hot-corner
-gnome-shell-extension-openweather
 gnome-shell-extension-stealmyfocus
 gnome-shell-extensions
 gnome-system-log
@@ -186,7 +185,7 @@ libva-mesa-driver
 libva-vdpau-driver
 licenses
 linux-firmware
-linux50
+linux51
 logrotate
 lollypop
 lrzip
@@ -297,7 +296,6 @@ sd
 seahorse
 sed
 shadow
-signal-desktop-bin
 simple-scan
 sni-qt-patched-git
 spectre-meltdown-checker
@@ -345,7 +343,7 @@ vim
 vim-spell-de
 vim-spell-en
 vino
-visual-studio-code-bin
+vscodium-bin
 vulkan-intel
 vulkan-radeon
 wget
