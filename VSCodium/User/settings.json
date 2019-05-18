@@ -58,6 +58,11 @@
   },
   "prettier.ignorePath": ".gitignore",
 
+  // PostCSS support
+  "files.associations": {
+    "*.css": "postcss"
+  },
+
   // Vim
   "vim.visualstar": true,
   "vim.hlsearch": true,

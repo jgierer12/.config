@@ -14,7 +14,9 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.vscode-pull-request-github
 hbenl.vscode-firefox-debug
+jasonnutter.search-node-modules
 jpoissonnier.vscode-styled-components
+mhmadhamster.postcss-language
 mikestead.dotenv
 monokai.theme-monokai-pro-vscode
 ms-vsliveshare.vsliveshare
