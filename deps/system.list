@@ -60,9 +60,7 @@ file-roller
 filesystem
 filezilla
 findutils
-firefox-developer-edition
-firefox-developer-edition-i18n-de
-firefox-developer-edition-i18n-en-us
+firefox
 fish
 fisher
 flex
@@ -168,7 +166,6 @@ lib32-gnutls
 lib32-libva-vdpau-driver
 lib32-mesa-demos
 lib32-mesa-vdpau
-lib32-sni-qt-patched-git
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libappindicator-gtk2
@@ -254,7 +251,8 @@ openssh
 os-prober
 p7zip
 pacman
-pamac-dev
+pamac-cli
+pamac-gtk
 patch
 pciutils
 pcloud-drive
@@ -297,7 +295,6 @@ seahorse
 sed
 shadow
 simple-scan
-sni-qt-patched-git
 spectre-meltdown-checker
 speech-dispatcher
 spotify
