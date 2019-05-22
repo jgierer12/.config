@@ -1,3 +1,6 @@
+# Set config folder if unset
+set --query XDG_CONFIG_HOME; or set --export XDG_CONFIG_HOME ~/.config
+
 set deps_path $XDG_CONFIG_HOME/deps
 mkdir --parents $deps_path
 
