@@ -26,6 +26,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/jgierer12/.config/master/i
 # reboot
 ```
 
+## Additional setup
+
+### GNOME extensions
+
 The following GNOME extensions should be installed manually from
 https://extensions.gnome.org/ for compatibility reasons:
 
@@ -33,6 +37,12 @@ https://extensions.gnome.org/ for compatibility reasons:
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
   (Installed by default on Manjaro)
+
+### GNOME Shell theme
+
+Follow the installation instructions on
+[AdwaitaTweaks](https://github.com/jgierer12/AdwaitaTweaks) in order to install
+my tweaked GNOME Shell theme.
 
 ## Maintenance
 
