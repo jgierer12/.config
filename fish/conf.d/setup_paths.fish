@@ -14,6 +14,6 @@ add_to PATH ~/.bin ~/.yarn/bin
 
 # Add frequent dirs to CDPATH for fast navition
 # cd into their subdirs from anywhere
-add_to CDPATH . ~ ~/dev ~/Desktop
+add_to CDPATH . ~ ~/dev ~/desktop
 
 functions -e add_to
