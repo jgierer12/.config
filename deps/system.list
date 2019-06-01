@@ -3,6 +3,7 @@ acpid
 adwaita-icon-theme
 alsa-firmware
 alsa-utils
+android-sdk-platform-tools
 aspell-de
 aspell-en
 atomicparsley
@@ -21,6 +22,7 @@ bitwarden-bin
 btrfs-progs
 bzip2
 caffeine-ng
+capitaine-cursors
 caribou
 chrome-gnome-shell
 chromium
@@ -39,8 +41,6 @@ discord
 dmidecode
 dmraid
 dnsmasq
-docker
-docker-compose
 dosfstools
 e2fsprogs
 ecryptfs-utils
@@ -103,7 +103,6 @@ gnome-shell-extension-arch-update
 gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
-gnome-shell-extension-gsconnect
 gnome-shell-extension-no-topleft-hot-corner
 gnome-shell-extension-stealmyfocus
 gnome-shell-extensions
@@ -138,6 +137,7 @@ gzip
 hardcode-fixer-git
 hardcode-tray
 haveged
+heimdall-git
 highlight
 htop
 hub
@@ -146,8 +146,6 @@ hyphen-de
 hyphen-en
 inetutils
 inkscape
-insync
-insync-nautilus
 intel-ucode
 interui-otf
 inxi
@@ -274,6 +272,7 @@ pulseaudio-zeroconf
 python-brotli
 python-ewmh
 python-fuzzysearch
+python-nautilus
 python-neovim
 python-pip
 python-pycryptodome
@@ -311,7 +310,6 @@ telegram-desktop
 telepathy-accounts-signon
 terminus-font
 texinfo
-thefuck
 tilix
 timeshift
 tk
@@ -348,7 +346,6 @@ which
 wpa_supplicant
 xautomation
 xclip
-xcursor-capitaine
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
