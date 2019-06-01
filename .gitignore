@@ -11,3 +11,4 @@
 !/init.sh
 !/nvim
 !/youtube-dl
+!user-dirs.*
