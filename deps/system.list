@@ -19,6 +19,7 @@ beep
 binutils
 bison
 bitwarden-bin
+bleachbit
 brave-bin
 btrfs-progs
 bzip2
@@ -234,6 +235,7 @@ mousetweaks
 mutter
 namcap
 nano
+nasc
 nautilus
 nautilus-empty-file
 neofetch
@@ -247,6 +249,7 @@ networkmanager-vpnc
 nfs-utils
 nodejs
 nordnm
+notion-app
 npm
 nss-mdns
 ntfs-3g
