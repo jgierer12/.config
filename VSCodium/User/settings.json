@@ -8,7 +8,6 @@
   "workbench.colorTheme": "Monokai Pro",
   "workbench.iconTheme": "Monokai Pro Monochrome Icons",
   "monokaiPro.fileIconsMonochrome": true,
-  "window.titleBarStyle": "custom",
   "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "toggle",
   "workbench.panel.defaultLocation": "right", // Terminal
