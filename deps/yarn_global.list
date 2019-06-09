@@ -2,6 +2,7 @@ all-the-package-names
 create-react-app
 emoj
 fauna-shell
+fx
 glyphhanger
 heroku
 netlify-cli

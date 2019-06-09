@@ -34,7 +34,6 @@ The following GNOME extensions should be installed manually from
 https://extensions.gnome.org/ for compatibility reasons:
 
 - [Dynamic Panel Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
-- [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
   (Installed by default on Manjaro)
 
