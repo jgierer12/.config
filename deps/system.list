@@ -29,6 +29,7 @@ caribou
 choosealicense-cli-git
 chrome-gnome-shell
 chromium
+cinnamon-translations
 cmake
 coreutils
 cpupower
@@ -68,6 +69,8 @@ filesystem
 filezilla
 findutils
 firefox
+firefox-i18n-de
+firefox-i18n-en-us
 fish
 fisher
 flex
@@ -217,6 +220,7 @@ manjaro-pulse
 manjaro-release
 manjaro-settings-manager-notifier
 manjaro-system
+mcmojave-circle-icon-theme-git
 mdadm
 mdloader-bin
 memtest86+
@@ -255,6 +259,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+numix-circle-icon-theme-git
 numlockx
 obs-studio
 ocenaudio
