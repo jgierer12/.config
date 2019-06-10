@@ -43,6 +43,14 @@ Follow the installation instructions on
 [AdwaitaTweaks](https://github.com/jgierer12/AdwaitaTweaks) in order to install
 my tweaked GNOME Shell theme.
 
+### Icon Theme
+
+1. Install
+   [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
+   as fallback for actual icon theme
+2. Install and activate
+   [mcMojave-circle](https://github.com/vinceliuice/McMojave-circle)
+
 ## Maintenance
 
 ### Updating
