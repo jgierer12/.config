@@ -13,5 +13,5 @@ function dl
 end
 
 function _dl_base
-  youtube-dl --cookies $XDG_CONFIG_HOME/youtube-dl/cookies.txt --output '%(autonumber)s - %(title)s.%(ext)s' $argv
+  youtube-dl --cookies $XDG_CONFIG_HOME/youtube-dl/cookies.txt --output '%(autonumber)s - %(creator)s - %(title)s.%(ext)s' $argv
 end
