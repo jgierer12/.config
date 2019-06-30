@@ -29,7 +29,6 @@ caribou
 choosealicense-cli-git
 chrome-gnome-shell
 chromium
-cinnamon-translations
 cmake
 coreutils
 cpupower
@@ -37,6 +36,7 @@ crda
 cronie
 cryptsetup
 dconf-editor
+deluge-git
 device-mapper
 dhclient
 dhcpcd
@@ -53,6 +53,7 @@ ebtables
 ecryptfs-utils
 efibootmgr
 eog
+epson-inkjet-printer-escpr
 evemu
 evolution
 evolution-data-server
@@ -116,6 +117,7 @@ gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
 gnome-shell-extension-gsconnect
+gnome-shell-extension-miniview-git
 gnome-shell-extension-no-topleft-hot-corner
 gnome-shell-extension-stealmyfocus
 gnome-shell-extension-topicons-redux
@@ -247,6 +249,7 @@ meson
 mhwd
 mhwd-db
 mhwd-tui
+minecraft-launcher
 mixxx
 mkinitcpio-openswap
 mobile-broadband-provider-info
@@ -256,9 +259,8 @@ mutter
 namcap
 nano
 nasc
-nautilus
 nautilus-empty-file
-nemo
+nautilus-typeahead
 neofetch
 neovim
 netctl
@@ -291,6 +293,7 @@ pamac-gtk
 patch
 pciutils
 pcloud-drive
+pdfarranger
 peek
 perl
 picard
@@ -420,6 +423,6 @@ yarn
 yaru-sound-theme
 yay
 yelp
-youtube-dl
+youtube-dl-git
 zoom
 zopfli

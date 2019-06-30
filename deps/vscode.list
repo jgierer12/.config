@@ -1,4 +1,5 @@
 aaron-bond.better-comments
+auchenberg.vscode-browser-preview
 bierner.github-markdown-preview
 bierner.markdown-checkbox
 bierner.markdown-emoji
@@ -13,6 +14,7 @@ esbenp.prettier-vscode
 fallenwood.vimL
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+freebroccolo.reasonml
 GitHub.vscode-pull-request-github
 hbenl.vscode-firefox-debug
 jasonnutter.search-node-modules
@@ -20,10 +22,10 @@ jpoissonnier.vscode-styled-components
 mhmadhamster.postcss-language
 mikestead.dotenv
 monokai.theme-monokai-pro-vscode
+ms-azuretools.vscode-docker
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 ow.vscode-subword-navigation
-PeterJausovec.vscode-docker
 Prisma.vscode-graphql
 silvenon.mdx
 SimonSiefke.svg-preview

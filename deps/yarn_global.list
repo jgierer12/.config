@@ -9,3 +9,6 @@ netlify-cli
 now
 np
 preact-cli
+reason-cli
+serve
+ts-node
