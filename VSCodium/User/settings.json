@@ -14,6 +14,8 @@
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.matchBrackets": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
 
   // Disable features
   "window.zoomLevel": 0,
