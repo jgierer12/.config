@@ -273,7 +273,6 @@ nfs-utils
 nodejs
 nordnm
 notion-app
-npm
 nss-mdns
 ntfs-3g
 ntp
@@ -298,6 +297,7 @@ peek
 perl
 picard
 pkgconf
+plex-media-server-plexpass
 pocket-casts-linux-bin
 polkit-gnome
 poppler-data
@@ -351,7 +351,6 @@ telegram-desktop
 telepathy-accounts-signon
 terminus-font
 texinfo
-tilix
 timeshift
 tk
 tlp
@@ -361,9 +360,9 @@ translate-shell
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
-ttf-emojione
 ttf-inconsolata
 ttf-indic-otf
+ttf-joypixels
 ttf-liberation
 ttf-ms-fonts
 ttf-opensans
@@ -424,5 +423,4 @@ yaru-sound-theme
 yay
 yelp
 youtube-dl-git
-zoom
 zopfli
