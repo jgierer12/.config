@@ -21,7 +21,6 @@
   "window.zoomLevel": 0,
   "workbench.startupEditor": "none",
   "window.restoreWindows": "none",
-  "workbench.statusBar.feedback.visible": false,
   "explorer.openEditors.visible": 0,
   "workbench.editor.showTabs": false,
   "editor.renderLineHighlight": "gutter",
