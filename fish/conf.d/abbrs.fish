@@ -60,6 +60,7 @@ add gpo 'git push --set-upstream origin'
 add gpom 'git push --set-upstream origin master'
 add gpj 'git push --set-upstream jgierer12'
 add gpl 'git pull'
+add gplp 'git pull --prune'
 
 ## Merge
 add gm 'git merge'
