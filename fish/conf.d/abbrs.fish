@@ -113,6 +113,10 @@ add oo 'open .'
 # cd
 add - 'cd -'
 
+# pikaur
+add pik 'pikaur'
+add piks 'pikaur -Ss'
+
 # Misc
 add rr 'rm -rf'
 add pg 'ping google.com'
