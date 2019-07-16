@@ -1,5 +1,4 @@
 aaron-bond.better-comments
-alefragnani.Bookmarks
 auchenberg.vscode-browser-preview
 AureliaEffect.aurelia
 bierner.github-markdown-preview
@@ -26,6 +25,7 @@ mhmadhamster.postcss-language
 mikestead.dotenv
 monokai.theme-monokai-pro-vscode
 ms-azuretools.vscode-docker
+ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 ow.vscode-subword-navigation

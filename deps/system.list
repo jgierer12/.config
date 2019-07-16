@@ -3,10 +3,10 @@ acpid
 adwaita-icon-theme
 alsa-firmware
 alsa-utils
-android-sdk-platform-tools
 aspell-de
 aspell-en
 atomicparsley
+aurvote
 autoconf
 automake
 avahi
@@ -23,10 +23,9 @@ bleachbit
 brave-bin
 btrfs-progs
 bzip2
-caffeine-ng
+caffeine
 capitaine-cursors
 caribou
-choosealicense-cli-git
 chrome-gnome-shell
 chromium
 cmake
@@ -54,6 +53,7 @@ ecryptfs-utils
 efibootmgr
 eog
 epson-inkjet-printer-escpr
+etcher-bin
 evemu
 evolution
 evolution-data-server
@@ -89,7 +89,6 @@ gifski
 gimp
 gimp-help-de
 gimp-help-en
-gitkraken
 glibc
 gmime
 gnome-backgrounds
@@ -117,7 +116,6 @@ gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
 gnome-shell-extension-gsconnect
-gnome-shell-extension-miniview-git
 gnome-shell-extension-no-topleft-hot-corner
 gnome-shell-extension-stealmyfocus
 gnome-shell-extension-topicons-redux
@@ -129,6 +127,7 @@ gnome-themes-extra
 gnome-tweaks
 gnome-user-docs
 gnome-user-share
+gnome-weather
 google-chrome
 gparted
 graphene
@@ -154,7 +153,6 @@ gzip
 hardcode-fixer-git
 hardcode-tray
 haveged
-heimdall-git
 highlight
 htop
 hub
@@ -218,7 +216,6 @@ logrotate
 lollypop
 lrzip
 lsb-release
-lutris
 lvm2
 m4
 make
@@ -290,12 +287,14 @@ pacman
 pamac-cli
 pamac-gtk
 patch
+pavucontrol
 pciutils
 pcloud-drive
 pdfarranger
 peek
 perl
 picard
+pikaur
 pkgconf
 plex-media-server-plexpass
 pocket-casts-linux-bin
@@ -342,7 +341,6 @@ sshfs
 standardnotes-desktop
 subliminal
 sudo
-suru-plus-git
 sysfsutils
 systemd-fsck-silent
 systemd-sysvcompat
@@ -354,6 +352,7 @@ texinfo
 timeshift
 tk
 tlp
+toggldesktop
 tracker
 tracker-miners
 translate-shell
@@ -390,7 +389,6 @@ vulkan-intel
 vulkan-radeon
 wget
 which
-wine-staging
 wpa_supplicant
 xautomation
 xclip
@@ -411,6 +409,7 @@ xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xfsprogs
+xinput-gui
 xorg-server
 xorg-twm
 xorg-xdpyinfo
