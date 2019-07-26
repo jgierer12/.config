@@ -2,5 +2,10 @@
   {
     "key": "capslock",
     "command": "extension.vim_escape"
+  },
+  {
+    "key": "alt+l",
+    "command": "console.log.wrap.nameValue",
+    "when": "editorTextFocus"
   }
 ]
