@@ -1,8 +1,10 @@
 all-the-package-names
 fauna-shell
+gzip-size-cli
 heroku
 netlify-cli
 now
 np
 preact-cli
 serve
+uglify-es

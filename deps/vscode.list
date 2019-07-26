@@ -20,7 +20,6 @@ GitHub.vscode-pull-request-github
 hbenl.vscode-firefox-debug
 jasonnutter.search-node-modules
 jpoissonnier.vscode-styled-components
-Luis.console-log
 mhmadhamster.postcss-language
 mikestead.dotenv
 monokai.theme-monokai-pro-vscode
@@ -37,3 +36,4 @@ sleistner.vscode-fileutils
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
+wooodhead.vscode-wrap-console-log-simple

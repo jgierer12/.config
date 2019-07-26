@@ -23,7 +23,6 @@ bleachbit
 brave-bin
 btrfs-progs
 bzip2
-caffeine
 capitaine-cursors
 caribou
 chrome-gnome-shell
@@ -48,6 +47,7 @@ dnsmasq
 docker
 dosfstools
 e2fsprogs
+easytag
 ebtables
 ecryptfs-utils
 efibootmgr
@@ -55,6 +55,7 @@ eog
 epson-inkjet-printer-escpr
 etcher-bin
 evemu
+evince
 evolution
 evolution-data-server
 evolution-ews
@@ -112,6 +113,7 @@ gnome-settings-daemon
 gnome-shell
 gnome-shell-extension-appindicator
 gnome-shell-extension-arch-update
+gnome-shell-extension-caffeine-plus-git
 gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
@@ -119,6 +121,7 @@ gnome-shell-extension-gsconnect
 gnome-shell-extension-no-topleft-hot-corner
 gnome-shell-extension-stealmyfocus
 gnome-shell-extension-topicons-redux
+gnome-shell-extension-window-corner-preview-git
 gnome-shell-extensions
 gnome-system-log
 gnome-system-monitor
@@ -326,6 +329,8 @@ qt5-translations
 reiserfsprogs
 ripgrep
 rsync
+ruby
+rubygems
 rust
 s-nail
 samba
