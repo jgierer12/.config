@@ -10,7 +10,7 @@ function add_to
 end
 
 # Add custom bins and yarn bins to PATH
-add_to PATH ~/.bin ~/.yarn/bin
+add_to PATH ~/.bin ~/.yarn/bin ~/.gem/ruby/2.6.0/bin
 
 # Add frequent dirs to CDPATH for fast navition
 # cd into their subdirs from anywhere
