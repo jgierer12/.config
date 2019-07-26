@@ -12,3 +12,4 @@
 !/nvim
 !/youtube-dl
 !user-dirs.*
+!/pikaur.conf
