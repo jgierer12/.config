@@ -1,5 +1,5 @@
 # Set editor to VSCode
-set --export VISUAL code
+set --export VISUAL vscodium
 set --export EDITOR $VISUAL
 
 # Set up jump
