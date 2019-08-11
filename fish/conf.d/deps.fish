@@ -45,8 +45,8 @@ end
 
 # Install
 function deps_install_system
-  if type --quiet pikaur; and test -z "$SKIP_SYSTEM_DEPS"
-    pikaur --sync --needed --refresh --noconfirm (_deps_get system)
+  if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
+    yay --sync --needed --refresh --noconfirm (_deps_get system)
   end
 end
 
@@ -66,7 +66,7 @@ end
 
 # Save
 function deps_save_system
-  _deps_set system (pikaur --query --explicit --quiet)
+  _deps_set system (yay --query --explicit --quiet)
 end
 
 function deps_save_vscode

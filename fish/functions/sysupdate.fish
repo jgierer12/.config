@@ -7,8 +7,8 @@ function sysupdate
   sudo echo noop > /dev/null # Ask for root password
 
   _sysupdate_log_section 'System deps'
-  if type --quiet pikaur; and test -z "$SKIP_SYSTEM_DEPS"
-    pikaur --sync --sysupgrade --refresh --noconfirm
+  if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
+    yay --sync --sysupgrade --refresh --noconfirm
   end
 
   _sysupdate_log_section 'Firmware'
