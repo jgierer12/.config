@@ -3,6 +3,7 @@ acpid
 adwaita-icon-theme
 alsa-firmware
 alsa-utils
+android-tools
 aspell-de
 aspell-en
 atomicparsley
@@ -46,6 +47,7 @@ dmraid
 dnsmasq
 docker
 dosfstools
+dpkg
 e2fsprogs
 easytag
 ebtables
@@ -113,7 +115,6 @@ gnome-settings-daemon
 gnome-shell
 gnome-shell-extension-appindicator
 gnome-shell-extension-arch-update
-gnome-shell-extension-caffeine-plus-git
 gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-do-not-disturb
@@ -131,7 +132,6 @@ gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-weather
-google-chrome
 gparted
 graphene
 grep
@@ -173,6 +173,7 @@ iptables
 iputils
 ipw2100-fw
 ipw2200-fw
+java-openjfx
 jfsutils
 jre8-openjdk
 jre8-openjdk-headless
@@ -214,7 +215,7 @@ libva-mesa-driver
 libva-vdpau-driver
 licenses
 linux-firmware
-linux51
+linux53
 logrotate
 lollypop
 lrzip
@@ -278,6 +279,7 @@ ntfs-3g
 ntp
 numix-circle-icon-theme-git
 numlockx
+nvme-cli
 obs-studio
 ocenaudio
 ocs-url
@@ -285,6 +287,7 @@ opencolorio
 openresolv
 openssh
 os-prober
+ovmf
 p7zip
 pacman
 pamac-cli
@@ -333,6 +336,7 @@ ruby
 rubygems
 rust
 s-nail
+s-tui
 samba
 sd
 seahorse
@@ -357,6 +361,8 @@ texinfo
 timeshift
 tk
 tlp
+tlp-rdw
+tlpui
 toggldesktop
 tracker
 tracker-miners
@@ -371,7 +377,6 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 ttf-roboto
-typora
 uget
 uget-integrator
 uget-integrator-chrome
@@ -388,7 +393,9 @@ vim
 vim-spell-de
 vim-spell-en
 vino
+viper4linux-gui
 virt-manager
+virt-viewer
 vscodium-bin
 vulkan-intel
 vulkan-radeon
@@ -414,6 +421,7 @@ xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xfsprogs
+xiaomitool-v2
 xinput-gui
 xorg-server
 xorg-twm
@@ -424,6 +432,7 @@ xorg-xprop
 xsel
 yarn
 yaru-sound-theme
+yay
 yelp
 youtube-dl-git
 zopfli
