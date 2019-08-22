@@ -1,6 +1,7 @@
 /*
 !/.gitignore
 !/README.md
+!/init.sh
 
 !/fish
 !/VSCodium
@@ -8,8 +9,6 @@
 !/htop
 !/deps
 !/neofetch
-!/init.sh
 !/nvim
 !/youtube-dl
-!user-dirs.*
-!/pikaur.conf
+!/user-dirs.*
