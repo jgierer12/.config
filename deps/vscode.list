@@ -9,15 +9,12 @@ bierner.markdown-yaml-preamble
 bungcip.better-toml
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
-dsznajder.es7-react-js-snippets
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 fallenwood.vimL
-formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
+firefox-devtools.vscode-firefox-debug
 freebroccolo.reasonml
 GitHub.vscode-pull-request-github
-hbenl.vscode-firefox-debug
 jasonnutter.search-node-modules
 jpoissonnier.vscode-styled-components
 mhmadhamster.postcss-language
@@ -36,4 +33,5 @@ sleistner.vscode-fileutils
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
+whatwedo.twig
 wooodhead.vscode-wrap-console-log-simple

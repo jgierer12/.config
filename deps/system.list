@@ -19,7 +19,6 @@ bat
 beep
 binutils
 bison
-bitwarden-bin
 bleachbit
 brave-bin
 btrfs-progs
@@ -85,6 +84,7 @@ gawk
 gcc
 gcc-libs
 gdm
+gdm3setup
 geary
 gedit
 gettext
@@ -115,13 +115,12 @@ gnome-settings-daemon
 gnome-shell
 gnome-shell-extension-appindicator
 gnome-shell-extension-arch-update
+gnome-shell-extension-caffeine-git
 gnome-shell-extension-coverflow-alt-tab
 gnome-shell-extension-dash-to-dock
-gnome-shell-extension-do-not-disturb
 gnome-shell-extension-gsconnect
 gnome-shell-extension-no-topleft-hot-corner
 gnome-shell-extension-stealmyfocus
-gnome-shell-extension-topicons-redux
 gnome-shell-extension-window-corner-preview-git
 gnome-shell-extensions
 gnome-system-log
@@ -178,6 +177,7 @@ jfsutils
 jre8-openjdk
 jre8-openjdk-headless
 jump-git
+kdenlive
 kernel-alive
 less
 lib32-giflib
@@ -392,7 +392,6 @@ vim
 vim-spell-de
 vim-spell-en
 vino
-viper4linux-gui
 virt-manager
 virt-viewer
 vscodium-bin
