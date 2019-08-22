@@ -28,28 +28,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/jgierer12/.config/master/i
 
 ## Additional setup
 
-### GNOME extensions
-
-The following GNOME extensions should be installed manually from
-https://extensions.gnome.org/ for compatibility reasons:
-
-- [Dynamic Panel Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-  (Installed by default on Manjaro)
-
 ### GNOME Shell theme
 
 Follow the installation instructions on
 [AdwaitaTweaks](https://github.com/jgierer12/AdwaitaTweaks) in order to install
 my tweaked GNOME Shell theme.
-
-### Icon Theme
-
-1. Install
-   [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
-   as fallback for actual icon theme
-2. Install and activate
-   [mcMojave-circle](https://github.com/vinceliuice/McMojave-circle)
 
 ## Maintenance
 
