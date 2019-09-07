@@ -25,9 +25,11 @@ btrfs-progs
 bzip2
 capitaine-cursors
 caribou
+celluloid
 chrome-gnome-shell
 chromium
 cmake
+code
 coreutils
 cpupower
 crda
@@ -53,7 +55,6 @@ ebtables
 ecryptfs-utils
 efibootmgr
 eog
-epson-inkjet-printer-escpr
 etcher-bin
 evemu
 evince
@@ -72,6 +73,7 @@ filesystem
 filezilla
 findutils
 firefox
+firefox-developer-edition
 firefox-i18n-de
 firefox-i18n-en-us
 fish
@@ -85,7 +87,6 @@ gcc
 gcc-libs
 gdm
 gdm3setup
-geary
 gedit
 gettext
 gifski
@@ -106,7 +107,7 @@ gnome-desktop
 gnome-disk-utility
 gnome-getting-started-docs
 gnome-keyring
-gnome-mpv
+gnome-music
 gnome-online-accounts
 gnome-power-manager
 gnome-screenshot
@@ -217,7 +218,6 @@ licenses
 linux-firmware
 linux53
 logrotate
-lollypop
 lrzip
 lsb-release
 lvm2
@@ -250,7 +250,6 @@ meson
 mhwd
 mhwd-db
 mhwd-tui
-minecraft-launcher
 mixxx
 mkinitcpio-openswap
 mobile-broadband-provider-info
@@ -259,7 +258,6 @@ mousetweaks
 mutter
 namcap
 nano
-nasc
 nautilus-empty-file
 nautilus-typeahead
 neofetch
@@ -273,7 +271,6 @@ networkmanager-vpnc
 nfs-utils
 nodejs
 nordnm
-notion-app
 nss-mdns
 ntfs-3g
 ntp
@@ -299,7 +296,6 @@ pcloud-drive
 pdfarranger
 peek
 perl
-picard
 pkgconf
 plex-media-server-plexpass
 pocket-casts-linux-bin
@@ -326,9 +322,9 @@ python-zopfli
 python2-libappindicator
 python2-pygments
 python2-scour
-qbittorrent
 qt5-translations
 reiserfsprogs
+restic
 ripgrep
 rsync
 ruby
@@ -357,12 +353,10 @@ telegram-desktop
 telepathy-accounts-signon
 terminus-font
 texinfo
-timeshift
 tk
 tlp
 tlp-rdw
 tlpui
-toggldesktop
 tracker
 tracker-miners
 translate-shell
@@ -394,11 +388,11 @@ vim-spell-en
 vino
 virt-manager
 virt-viewer
-code
 vulkan-intel
 vulkan-radeon
 wget
 which
+whois
 wpa_supplicant
 xautomation
 xclip
@@ -417,7 +411,6 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
-xf86-video-vesa
 xfsprogs
 xiaomitool-v2
 xinput-gui
