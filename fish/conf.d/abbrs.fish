@@ -5,10 +5,6 @@ end
 # git
 add g 'git'
 
-## Fast commit
-add f 'git fast'
-add ff 'git fast fastcommit'
-
 ## Commit
 add gc 'git commit'
 add gca 'git commit --all'
@@ -105,10 +101,6 @@ add ygr 'yarn global remove'
 # VSCode
 add c 'code'
 add cc 'code .'
-
-# open
-add o 'open'
-add oo 'open .'
 
 # cd
 add - 'cd -'
