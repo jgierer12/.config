@@ -117,6 +117,12 @@ add - 'cd -'
 add pik 'pikaur'
 add piks 'pikaur -Ss'
 
+# exa
+add e 'exa'
+add el 'exa --long --git'
+add et 'exa --tree'
+add elt 'exa --long --git --tree'
+
 # Misc
 add rr 'rm -rf'
 add pg 'ping google.com'
