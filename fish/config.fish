@@ -1,3 +1,3 @@
 # Set editor to VSCode
-set --export VISUAL vscodium
+set --export VISUAL code --new-window
 set --export EDITOR $VISUAL
