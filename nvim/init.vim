@@ -46,3 +46,5 @@ nnoremap <leader>wq :wq<CR>
 if has("nvim")                    " only works in neovim
   set inccommand=split            " show substitutions incrementally
 endif
+
+set relativenumber
