@@ -4,22 +4,13 @@ end
 
 # Update various system components
 function sysupdate
-  sudo echo noop > /dev/null # Ask for root password
+  deps_outdated_all
 
-  _sysupdate_log_section 'System deps'
-  if type --quiet yay; and test -z "$SKIP_SYSTEM_DEPS"
-    yay --sync --sysupgrade --refresh --noconfirm
+  confirm 'Continue?'
+
+  if test $status -ne 0
+    return $status
   end
 
-  _sysupdate_log_section 'Firmware'
-  fwupdmgr refresh; and fwupdmgr update
-
-  _sysupdate_log_section 'Yarn global packages'
-  yarn global upgrade
-
-  _sysupdate_log_section 'Fisher packages'
-  fisher
-
-  _sysupdate_log_section 'Fish completions'
-  fish_update_completions
+  deps_update_all
 end
