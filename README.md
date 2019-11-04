@@ -6,12 +6,12 @@
 - `./deps`:
   - System dependencies
     > **Note**: On Arch-based operating systems, system dependencies are
-    > automatically installed with pacman when running `init.sh`,
-    > `deps_install_system`, `deps_install_all`, and `sysupdate`. To opt-out
-    > of this, `export SKIP_SYSTEM_DEPS=true`/`set -x SKIP_SYSTEM_DEPS true`
-    > before running these commands.
+    > automatically installed with yay when running dependency-related commands.
+    > If you'd like to prevent that, please edit `fish/conf.d/deps.fish`
+    > accordingly before running these commands.
+  - Firmware updates via [LVFS](https://fwupd.org/)
   - VSCode extensions
-  - Global Yarn packages
+  - Global NPM packages
   - fish plugins
 
 ## Installation
