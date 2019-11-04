@@ -47,7 +47,6 @@
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "editor.formatOnSave": true,
   "html.format.enable": false,
   "javascript.format.enable": false,
   "typescript.format.enable": false,
@@ -120,5 +119,10 @@
   ],
   "vim.handleKeys": {
     "<C-b>": false // Toggle sidebar
-  }
+  },
+  "css.validate": false,
+  "postcss.validate": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "editor.formatOnSave": true
 }
