@@ -4,8 +4,11 @@ gatsby-cli
 gzip-size-cli
 heroku
 netlify-cli
+node-gyp
 now
 np
+npm
 preact-cli
+semver
 serve
-uglify-es
+yarn
