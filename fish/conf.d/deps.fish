@@ -35,14 +35,14 @@ function _deps_log_outdated
   set name $argv[1]
   set success $argv[2]
   set outdated $argv[3..-1]
+  set outdated_count (count $outdated)
 
   if test $success -eq 0
     echo (set_color --dim)"Can't determine outdated $name dependencies"(set_color normal)
-  else if test -z $outdated
+  else if test $outdated_count -eq 0
     echo (set_color green)"No outdated $name dependencies"(set_color normal)
   else
-    echo (set_color yellow)(count $outdated)" outdated $name dependencies:"(set_color normal)
-    echo
+    echo (set_color yellow)"$outdated_count outdated $name dependencies:"(set_color normal)
     printf ' %s\n' $outdated
   end
 end
