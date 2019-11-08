@@ -175,6 +175,6 @@ function deps_update_npm_global
   $_deps_cmd_npm upgrade --global
 end
 
-function deps_upgrade_fish
+function deps_update_fish
   $_deps_cmd_fisher
 end
