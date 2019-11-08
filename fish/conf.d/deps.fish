@@ -43,7 +43,7 @@ function _deps_log_outdated
   else
     echo (set_color yellow)(count $outdated)" outdated $name dependencies:"(set_color normal)
     echo
-    echo $outdated
+    printf ' %s\n' $outdated
   end
 end
 
