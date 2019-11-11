@@ -93,13 +93,11 @@ gcc
 gcc-libs
 gdb
 gdm
-geary
 gedit
 geogebra
 gettext
 gifski
 gimp
-gimp-help-de
 gimp-help-en
 glibc
 gmime
@@ -229,13 +227,13 @@ linux53
 logrotate
 lrzip
 lsb-release
+ltunify-git
 lutris
 lvm2
 m4
 make
 man-db
 man-pages
-man-pages-de
 manjaro-alsa
 manjaro-aur-support
 manjaro-browser-settings
@@ -256,7 +254,6 @@ meson
 mhwd
 mhwd-db
 mhwd-tui
-mixxx
 mkinitcpio-openswap
 mobile-broadband-provider-info
 modemmanager
@@ -326,7 +323,6 @@ python-pycryptodome
 python-pylast
 python-pynvim
 python-wikipedia
-python-zopfli
 python2-dbus
 python2-libappindicator
 python2-notify
@@ -350,13 +346,11 @@ sed
 shadow
 simple-scan
 sip
-solaar
 spectre-meltdown-checker
 speech-dispatcher
 splint
 spotify
 sshfs
-subliminal
 sudo
 sysfsutils
 system-config-printer
@@ -387,7 +381,6 @@ tlp-rdw
 tlpui
 tracker
 tracker-miners
-translate-shell
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -398,11 +391,6 @@ ttf-liberation
 ttf-ms-fonts
 ttf-opensans
 ttf-roboto
-uget
-uget-integrator
-uget-integrator-chrome
-uget-integrator-chromium
-uget-integrator-firefox
 uml_utilities
 unace
 unrar
@@ -412,7 +400,6 @@ util-linux
 valgrind
 vde2
 vim
-vim-spell-de
 vim-spell-en
 vino
 virt-manager
@@ -443,7 +430,6 @@ xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
 xfsprogs
-xinput-gui
 xorg-server
 xorg-twm
 xorg-xdpyinfo
@@ -456,4 +442,3 @@ yaru-sound-theme
 yay
 yelp
 youtube-dl-git
-zopfli
